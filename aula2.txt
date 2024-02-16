@@ -1,1 +1,28 @@
-teste aula web 1
+1 - Criamos o repositório do Git (Site)
+
+2 - Com o reposotório criado, nos clonamos utilizando o comando:
+
+$ git clone xxx ( xxx => caminho do repositório gerado.
+
+3 - Criar/Alterar os arquivos dentro do diretório (pasta) do repositório.
+
+4 - Utilizamos o seguinte comando para poder incluir/altualizar os arquivos:
+
+$ git add . (o ponto indica todos os arquivos)
+
+5 - Utilizamos o comando para "commit" para salvar as alterações realizadas:
+
+$ git commit -m "v0" (o "m" indica a mensagem que será utilizada)
+
+Ao executar o git commit, poderemos ter que incluir as configurações de "name" e email:
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+  
+6 - Finalmento vamos enviar as alterações/inclusões para o repositório
+
+$ git push origin main 
+
+
+
+A todo momento é possível executar o "git status" a fim de verificar se as alterações/inclusões estão sendo realizadas. 
